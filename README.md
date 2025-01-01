@@ -7,23 +7,19 @@ An artificial intelligence assistant to help diagnose doctors or healthcare prof
 
    Projeyi çalıştırmadan önce, projenin içerdiği alt dizinlerde gerekli bağımlılıkları kurmanız gerekmektedir.
 
-   - **Veritabanı (Database)**
-     - Dizine Gitme: `cd database`
-     - Gerekli Modülleri Kurma: `npm install`
-
    - **Ön Yüz (Frontend)**
      - Dizine Gitme: `cd frontend`
      - Gerekli Modülleri Kurma: `npm install`
 
    - **Sunucu (Server)**
-     - Dizine Gitme: `cd server`
+     - Dizine Gitme: `cd backend`
      - Gerekli Modülleri Kurma: `npm install`
 
 2. **Uygulamayı Başlatma**:
 
    - **Sunucuyu Başlatma**:
-     - Sunucu Dizine Gitme: `cd server`
-     - Sunucuyu Başlatma: `node index.js`
+     - Sunucu Dizine Gitme: `cd backend`
+     - Sunucuyu Başlatma: `node server.js`
 
    - **Ön Yüz Uygulamasını Başlatma**:
      - Ön Yüz Dizine Gitme: `cd frontend`
