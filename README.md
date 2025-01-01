@@ -1,27 +1,32 @@
 # CliniMind
 An artificial intelligence assistant to help diagnose doctors or healthcare professionals.
 
-## Gerekli Kurulumlar ve Uygulamayı Başlatma
+Interface includes daily health tips, suggested questions, and a central chat feature designed to encourage self-care and informed health decisions without overwhelming users.
 
-1. **Gerekli Kurulumlar**:
+![image](https://github.com/user-attachments/assets/4b4ff859-98eb-47e9-a344-0af6cbf1a0e0)
 
-   Projeyi çalıştırmadan önce, projenin içerdiği alt dizinlerde gerekli bağımlılıkları kurmanız gerekmektedir.
 
-   - **Ön Yüz (Frontend)**
-     - Dizine Gitme: `cd frontend`
-     - Gerekli Modülleri Kurma: `npm install`
+## Required Installations and Starting the Application
 
-   - **Sunucu (Server)**
-     - Dizine Gitme: `cd backend`
-     - Gerekli Modülleri Kurma: `npm install`
+1. **Required Installations**:
 
-2. **Uygulamayı Başlatma**:
+   Before running the project, you need to install the required dependencies in the subdirectories of the project.
 
-   - **Sunucuyu Başlatma**:
-     - Sunucu Dizine Gitme: `cd backend`
-     - Sunucuyu Başlatma: `node server.js`
+   - **Frontend**
+     - Navigate to Directory: `cd frontend`
+     - Install Required Modules: `npm install`
 
-   - **Ön Yüz Uygulamasını Başlatma**:
-     - Ön Yüz Dizine Gitme: `cd frontend`
-     - Uygulamayı Başlatma: `npm start`
-       - Uygulama otomatik olarak tarayıcınızda açılacaktır.
+   - **Server**
+     - Navigate to Directory: `cd backend`
+     - Install Required Modules: `npm install`
+
+2. **Starting the Application**:
+
+   - **Starting the Server**:
+     - Navigate to Server Directory: `cd backend`
+     - Start the Server: `node server.js`
+
+   - **Starting the Frontend Application**:
+     - Navigate to Frontend Directory: `cd frontend`
+     - Start the Application: `npm start`
+       - The application will automatically open in your browser.
